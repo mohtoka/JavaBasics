@@ -9,15 +9,15 @@ public class Car {
 	int speed;
 	
 	void drive() {
-		System.out.println("Car can drive");
+		System.out.println(make + " can drive");
 	}
 	
 	void reverse() {
-		System.out.println("Car can reverse");
+		System.out.println(make + " can reverse");
 	}
 	
 	void transportPeople() {
-		System.out.println("Car can transport people");
+		System.out.println(make + " can transport people");
 	}
 
 }
