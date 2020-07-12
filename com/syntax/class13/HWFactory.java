@@ -32,5 +32,37 @@ public class HWFactory {
 		nokia.takePictures();
 		
 		
+		System.out.println("=============Dogs============");
+		
+		
+		Dog d1 = new Dog();
+		Dog d2 = new Dog();
+		Dog d3 = new Dog();
+		
+		d1.breed = "Husky";
+		d2.breed = "Bulldog";
+		d3.breed = "Labrador";
+		
+		d1.color = "White";
+		d2.color = "Brown";
+		d3.color = "Blonde";
+		
+		d1.size = "Medium";
+		d2.size = "Small";
+		d3.size = "Large";
+		
+		d1.bark();
+		d1.nap();
+		d1.cuddle();
+		
+		d2.bark();
+		d2.nap();
+		d2.cuddle();
+		
+		d3.bark();
+		d3.nap();
+		d3.cuddle();
+		
+		
 	}
 }
