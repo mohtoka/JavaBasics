@@ -4,6 +4,6 @@ public class BusinessAnalyst extends ScrumTeam {
 	
 	void gatherRequirements() {
 		System.out.println("I gather requirements");
-	}
 
+}
 }

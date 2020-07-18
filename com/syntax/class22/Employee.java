@@ -2,8 +2,10 @@ package com.syntax.class22;
 
 public class Employee {
 	
-	static String company  = "Syntax";
+	public static String company  = "Syntax";
+	protected String fullName;
 	double salary;
+	private long ssn;
 	
 	void work() {
 		System.out.println("I work hard");
