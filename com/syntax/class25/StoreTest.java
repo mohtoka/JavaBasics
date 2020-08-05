@@ -1,4 +1,4 @@
-package com.syntax.class25;
+ package com.syntax.class25;
 
 public class StoreTest {
 	
@@ -16,17 +16,19 @@ public class StoreTest {
 		
 		for (Store s :stores) {
 			s.openHours();
-			s.sale();
+			s.sale(); 
 			System.out.println("----------");
 		}
 		
 		System.out.println("----------LOOPING MY STORES ARRAY----------");
 		Store[] myStores = {macys, starb, nike};
 		
-		for (int i = 0; i<myStores.length; i++) {
-			myStores[i].openHours();
-			System.out.println("----------");
-		}
+//		for (int i = 0; i<myStores.length; i++) {
+//			myStores[i].openHours();
+//			System.out.println("----------");
+//		}
+		
+		Store.runMethods(myStores);
 	}
 
 }

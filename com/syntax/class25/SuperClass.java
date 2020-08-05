@@ -9,6 +9,8 @@ public class SuperClass {
 }
 class SubClass extends SuperClass{
 	
+	//this process is called method hiding
+	//@Override
 	protected static void enjoy() {
 		System.out.println("I enjoy everyday");
 	}

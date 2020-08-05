@@ -13,10 +13,8 @@ public class EmployeeTest {
 		c.getPaid();
 		
 		FullTime ft = new FullTime();
-		ft.salary = 0;
+		ft.salary = 95000 ;
 		ft.getPaid();
-		
-		
 		
 	}
 

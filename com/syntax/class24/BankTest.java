@@ -11,5 +11,6 @@ public class BankTest {
 		PNC pnc = new PNC(900);
 		double pncFee = pnc.chargeFee();
 		System.out.println(pncFee);
+		
 	}
 }

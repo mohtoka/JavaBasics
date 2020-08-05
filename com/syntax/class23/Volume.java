@@ -20,6 +20,7 @@ public class Volume {
 		Volume v = new Volume();
 		
 		System.out.println(v.vol(10));
+		System.out.println(v.vol(10, 20));
 		
 	}
 }

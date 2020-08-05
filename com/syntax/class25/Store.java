@@ -16,6 +16,13 @@ public class Store {
 	public void sale() {
 		System.out.println("Stores sale items");
 	}
+	
+	public static void runMethods(Store[] a) {
+		for (int i = 0; i<a.length; i++) {
+			a[i].openHours();
+			System.out.println("----------");
+		}
+	}
 }
 
 class Macys extends Store {
