@@ -10,10 +10,10 @@ public class RemovingElementsFromCollections {
 		ArrayList<String> cities = new ArrayList<>();
 		cities.add("Kyiv");
 		cities.add("LA");
-		cities.add("LA");
 		cities.add("Istanbul");
-		cities.add("DC");
 		cities.add("New York");
+		cities.add("DC");
+		cities.add("LA");
 		
 		System.out.println("Original = " + cities);
 		
@@ -37,16 +37,23 @@ public class RemovingElementsFromCollections {
 		cities.add("LA");
 		cities.add("LA");
 		cities.add("Miami");
+		cities.add("Miami");
+		cities.add("Miami");
+		cities.add("Miami");
+		cities.add("Moscow");
+		
+		System.out.println("Before = " + cities);
 		
 		Iterator<String> citiesIt = cities.iterator();
 		
 		while(citiesIt.hasNext()) {
-			if (citiesIt.next().equals("LA")) {
+			String ci = citiesIt.next();
+			if (ci.equals("LA") || ci .equals("New York")) {
 				citiesIt.remove();
 			}
 		}
 		
-		System.out.println(cities);
+		System.out.println("After = " + cities);
 		
 	}
 
