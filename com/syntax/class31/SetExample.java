@@ -89,7 +89,7 @@ public class SetExample {
 		
 		System.out.println("---------- Creating an object of TreeSet to store Double ----------");
 		
-		Set<Double> tset = new TreeSet<>();
+		Set<Double> tset = new HashSet<>();
 		tset.add(10.99);
 		tset.add(1.99);
 		tset.add(1000.99);
