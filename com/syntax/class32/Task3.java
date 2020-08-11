@@ -24,6 +24,7 @@ public class Task3 {
 		map.put(9, 100);
 		map.put(10, 100);
 		
+		
 		int sum = 0;
 		
 		Set<Entry<Integer, Integer>> entry = map.entrySet();
