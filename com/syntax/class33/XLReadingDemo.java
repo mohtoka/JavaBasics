@@ -18,24 +18,27 @@ public class XLReadingDemo {
 		
 		FileInputStream fis = new FileInputStream(xlPath);
 		
-		Workbook wb = new XSSFWorkbook(fis);
+		Workbook workbook = new XSSFWorkbook(fis);
 		
-		Sheet sheet = wb.getSheet("Sheet1");
+		Sheet sheet = workbook.getSheet("Sample");
 		
 		Row row1 = sheet.getRow(0);
 		
-		Cell row1cell2 = row1.getCell(2);
+		Cell row1cell1 = row1.getCell(2);
 		
-		String r1c2String = row1cell2.toString();		
+		String value = row1cell1.toString();
 		
-		System.out.println(r1c2String);
+		System.out.println(value);//lastname
 		
 		Row row2 = sheet.getRow(1);
 		
-		String valueOfAnotherCell = row2.getCell(0).toString();
-		System.out.println(valueOfAnotherCell);
+		String valueFromAnotherCell = row2.getCell(0).toString();
 		
-		//List of Maps
+		System.out.println(valueFromAnotherCell);
+		
+		
+		
+		
 		
 	}
 
